@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<robot name="axion_arm">
+
+  <!-- ==================== MATERIALS ==================== -->
+  <material name="dark_slate">
+    <color rgba="0.08 0.12 0.20 1.0"/>
+  </material>
+
+  <material name="cyan_accent">
+    <color rgba="0.22 0.74 0.97 1.0"/>
+  </material>
+
+  <material name="metallic_joint">
+    <color rgba="0.50 0.60 0.70 1.0"/>
+  </material>
+
+  <material name="hand_white">
+    <color rgba="0.95 0.96 0.98 1.0"/>
+  </material>
+
+
+  <!-- ==================== BASE LINK ==================== -->
+  <link name="base_link">
+    <!-- Stand pedestal -->
+    <visual>
+      <geometry>
+        <cylinder length="0.08" radius="0.20"/>
+      </geometry>
+      <origin xyz="0 0 0.04" rpy="0 0 0"/>
+      <material name="dark_slate"/>
+    </visual>
+  </link>
+
+
+  <!-- ==================== ROBOTIC ARM ==================== -->
+  <!-- Shoulder Yaw Joint & Link -->
+  <joint name="shoulder_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="shoulder_link"/>
+    <origin xyz="0 0 0.08" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.57" upper="1.57" effort="10.0" velocity="2.0"/>
+  </joint>
+
+  <link name="shoulder_link">
+    <visual>
+      <geometry>
+        <sphere radius="0.12"/>
+      </geometry>
+      <origin xyz="0 0 0.06" rpy="0 0 0"/>
+      <material name="metallic_joint"/>
+    </visual>
+  </link>
+
+  <!-- Shoulder Pitch Joint & Upper Arm -->
+  <joint name="shoulder_pitch_joint" type="revolute">
+    <parent link="shoulder_link"/>
+    <child link="upper_arm_link"/>
+    <origin xyz="0 0 0.06" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.5" upper="1.5" effort="10.0" velocity="2.0"/>
+  </joint>
+
+  <link name="upper_arm_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.45" radius="0.055"/>
+      </geometry>
+      <origin xyz="0 0 0.225" rpy="0 0 0"/>
+      <material name="dark_slate"/>
+    </visual>
+    <!-- Exoskeleton Stripe -->
+    <visual>
+      <geometry>
+        <cylinder length="0.08" radius="0.06"/>
+      </geometry>
+      <origin xyz="0 0 0.225" rpy="0 0 0"/>
+      <material name="cyan_accent"/>
+    </visual>
+  </link>
+
+  <!-- Elbow Joint (Primary Rehabilitation Axis) -->
+  <joint name="elbow_joint" type="revolute">
+    <parent link="upper_arm_link"/>
+    <child link="forearm_link"/>
+    <origin xyz="0 0 0.45" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-0.5" upper="2.5" effort="10.0" velocity="2.0"/>
+  </joint>
+
+  <link name="forearm_link">
+    <!-- Servo Motor Cylinder -->
+    <visual>
+      <geometry>
+        <cylinder length="0.14" radius="0.075"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <material name="metallic_joint"/>
+    </visual>
+    <!-- Forearm Shaft -->
+    <visual>
+      <geometry>
+        <cylinder length="0.40" radius="0.048"/>
+      </geometry>
+      <origin xyz="0 0 0.20" rpy="0 0 0"/>
+      <material name="dark_slate"/>
+    </visual>
+    <!-- Cyan Accent -->
+    <visual>
+      <geometry>
+        <cylinder length="0.06" radius="0.052"/>
+      </geometry>
+      <origin xyz="0 0 0.20" rpy="0 0 0"/>
+      <material name="cyan_accent"/>
+    </visual>
+  </link>
+
+  <!-- Wrist Joint & Palm -->
+  <joint name="wrist_joint" type="revolute">
+    <parent link="forearm_link"/>
+    <child link="hand_link"/>
+    <origin xyz="0 0 0.40" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.5" upper="1.5" effort="5.0" velocity="2.0"/>
+  </joint>
+
+  <link name="hand_link">
+    <!-- Palm -->
+    <visual>
+      <geometry>
+        <box size="0.07 0.10 0.05"/>
+      </geometry>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <material name="hand_white"/>
+    </visual>
+  </link>
+
+  <!-- Left Finger (Opens and Clamps Cup) -->
+  <joint name="finger_left_joint" type="revolute">
+    <parent link="hand_link"/>
+    <child link="finger_left_link"/>
+    <origin xyz="0 0.04 0.08" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-0.8" upper="0.8" effort="2.0" velocity="2.0"/>
+  </joint>
+
+  <link name="finger_left_link">
+    <visual>
+      <geometry>
+        <box size="0.018 0.02 0.09"/>
+      </geometry>
+      <origin xyz="0 0 0.045" rpy="0 0 0"/>
+      <material name="cyan_accent"/>
+    </visual>
+  </link>
+
+  <!-- Right Finger (Opens and Clamps Cup) -->
+  <joint name="finger_right_joint" type="revolute">
+    <parent link="hand_link"/>
+    <child link="finger_right_link"/>
+    <origin xyz="0 -0.04 0.08" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-0.8" upper="0.8" effort="2.0" velocity="2.0"/>
+  </joint>
+
+  <link name="finger_right_link">
+    <visual>
+      <geometry>
+        <box size="0.018 0.02 0.09"/>
+      </geometry>
+      <origin xyz="0 0 0.045" rpy="0 0 0"/>
+      <material name="cyan_accent"/>
+    </visual>
+  </link>
+
+</robot>

@@ -1,0 +1,18 @@
+AXION-1 Feature Export Metadata
+================================
+Generated: 12-Nov-2026 14:24:24
+Sampling Rate: 160 Hz
+Window Size: 1.0 s
+Window Overlap: 50%
+Total Windows: 135
+EEG Features: 6
+EMG Features: 24
+Quality Score Range: [0, 1]
+EMG Degradation Threshold: 0.4
+
+Interface Contract:
+  - timestamp: float (seconds from start)
+  - window_id: integer (sequential)
+  - label: 0=rest, 1=left_fist, 2=right_fist
+  - eeg_quality: float [0,1] confidence
+  - emg_quality: float [0,1] confidence

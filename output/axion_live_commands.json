@@ -1,0 +1,2837 @@
+[
+  {
+    "timestamp": 0.0,
+    "window_id": 1,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.879,
+    "source_weights": {
+      "eeg": 0.576,
+      "emg": 0.424
+    },
+    "signal_qualities": {
+      "eeg_q": 0.967,
+      "emg_q": 0.713
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 0.5,
+    "window_id": 2,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.624,
+    "source_weights": {
+      "eeg": 0.579,
+      "emg": 0.421
+    },
+    "signal_qualities": {
+      "eeg_q": 0.967,
+      "emg_q": 0.702
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 1.0,
+    "window_id": 3,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.848,
+    "source_weights": {
+      "eeg": 0.575,
+      "emg": 0.425
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.714
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 1.5,
+    "window_id": 4,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.631,
+    "source_weights": {
+      "eeg": 0.574,
+      "emg": 0.426
+    },
+    "signal_qualities": {
+      "eeg_q": 0.962,
+      "emg_q": 0.715
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 2.0,
+    "window_id": 5,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.887,
+    "source_weights": {
+      "eeg": 0.576,
+      "emg": 0.424
+    },
+    "signal_qualities": {
+      "eeg_q": 0.961,
+      "emg_q": 0.708
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 2.5,
+    "window_id": 6,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.93,
+    "source_weights": {
+      "eeg": 0.555,
+      "emg": 0.445
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.775
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 3.0,
+    "window_id": 7,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.799,
+    "source_weights": {
+      "eeg": 0.566,
+      "emg": 0.434
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.744
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 3.5,
+    "window_id": 8,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.917,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 4.0,
+    "window_id": 9,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.716,
+    "source_weights": {
+      "eeg": 0.576,
+      "emg": 0.424
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.713
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 4.5,
+    "window_id": 10,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.851,
+    "source_weights": {
+      "eeg": 0.572,
+      "emg": 0.428
+    },
+    "signal_qualities": {
+      "eeg_q": 0.971,
+      "emg_q": 0.728
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 5.0,
+    "window_id": 11,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.982,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.731
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 5.5,
+    "window_id": 12,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.963,
+    "source_weights": {
+      "eeg": 0.559,
+      "emg": 0.441
+    },
+    "signal_qualities": {
+      "eeg_q": 0.967,
+      "emg_q": 0.763
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 6.0,
+    "window_id": 13,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.831,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.966,
+      "emg_q": 0.707
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 6.5,
+    "window_id": 14,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.769,
+    "source_weights": {
+      "eeg": 0.576,
+      "emg": 0.424
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.714
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 7.0,
+    "window_id": 15,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.762,
+    "source_weights": {
+      "eeg": 0.576,
+      "emg": 0.424
+    },
+    "signal_qualities": {
+      "eeg_q": 0.965,
+      "emg_q": 0.709
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 7.5,
+    "window_id": 16,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.822,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "signal_qualities": {
+      "eeg_q": 0.966,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 8.0,
+    "window_id": 17,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.729,
+    "source_weights": {
+      "eeg": 0.581,
+      "emg": 0.419
+    },
+    "signal_qualities": {
+      "eeg_q": 0.969,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 8.5,
+    "window_id": 18,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.816,
+    "source_weights": {
+      "eeg": 0.56,
+      "emg": 0.44
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.761
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 9.0,
+    "window_id": 19,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.778,
+    "source_weights": {
+      "eeg": 0.572,
+      "emg": 0.428
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.726
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 9.5,
+    "window_id": 20,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.828,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.961,
+      "emg_q": 0.705
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 10.0,
+    "window_id": 21,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.982,
+    "source_weights": {
+      "eeg": 0.575,
+      "emg": 0.425
+    },
+    "signal_qualities": {
+      "eeg_q": 0.961,
+      "emg_q": 0.71
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 10.5,
+    "window_id": 22,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.978,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 11.0,
+    "window_id": 23,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.87,
+    "source_weights": {
+      "eeg": 0.574,
+      "emg": 0.426
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.721
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 11.5,
+    "window_id": 24,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.765,
+    "source_weights": {
+      "eeg": 0.546,
+      "emg": 0.454
+    },
+    "signal_qualities": {
+      "eeg_q": 0.967,
+      "emg_q": 0.804
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 12.0,
+    "window_id": 25,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.916,
+    "source_weights": {
+      "eeg": 0.575,
+      "emg": 0.425
+    },
+    "signal_qualities": {
+      "eeg_q": 0.966,
+      "emg_q": 0.715
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 12.5,
+    "window_id": 26,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.983,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.967,
+      "emg_q": 0.709
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 13.0,
+    "window_id": 27,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.921,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 13.5,
+    "window_id": 28,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.861,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 14.0,
+    "window_id": 29,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.733,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.969,
+      "emg_q": 0.71
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 14.5,
+    "window_id": 30,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.847,
+    "source_weights": {
+      "eeg": 0.551,
+      "emg": 0.449
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.789
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 15.0,
+    "window_id": 31,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.815,
+    "source_weights": {
+      "eeg": 0.558,
+      "emg": 0.442
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.769
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 15.5,
+    "window_id": 32,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.782,
+    "source_weights": {
+      "eeg": 0.581,
+      "emg": 0.419
+    },
+    "signal_qualities": {
+      "eeg_q": 0.972,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 16.0,
+    "window_id": 33,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.854,
+    "source_weights": {
+      "eeg": 0.581,
+      "emg": 0.419
+    },
+    "signal_qualities": {
+      "eeg_q": 0.969,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 16.5,
+    "window_id": 34,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.807,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 17.0,
+    "window_id": 35,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.84,
+    "source_weights": {
+      "eeg": 0.557,
+      "emg": 0.443
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.769
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 17.5,
+    "window_id": 36,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.985,
+    "source_weights": {
+      "eeg": 0.555,
+      "emg": 0.445
+    },
+    "signal_qualities": {
+      "eeg_q": 0.966,
+      "emg_q": 0.774
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 18.0,
+    "window_id": 37,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.942,
+    "source_weights": {
+      "eeg": 0.579,
+      "emg": 0.421
+    },
+    "signal_qualities": {
+      "eeg_q": 0.966,
+      "emg_q": 0.702
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 18.5,
+    "window_id": 38,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.844,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.964,
+      "emg_q": 0.707
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 19.0,
+    "window_id": 39,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.7,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.955,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 19.5,
+    "window_id": 40,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.897,
+    "source_weights": {
+      "eeg": 0.576,
+      "emg": 0.424
+    },
+    "signal_qualities": {
+      "eeg_q": 0.953,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 20.0,
+    "window_id": 41,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.879,
+    "source_weights": {
+      "eeg": 0.579,
+      "emg": 0.421
+    },
+    "signal_qualities": {
+      "eeg_q": 0.963,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 20.5,
+    "window_id": 42,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.967,
+    "source_weights": {
+      "eeg": 0.554,
+      "emg": 0.446
+    },
+    "signal_qualities": {
+      "eeg_q": 0.971,
+      "emg_q": 0.783
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 21.0,
+    "window_id": 43,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.789,
+    "source_weights": {
+      "eeg": 0.559,
+      "emg": 0.441
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.763
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 21.5,
+    "window_id": 44,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.762,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.708
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 22.0,
+    "window_id": 45,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.838,
+    "source_weights": {
+      "eeg": 0.578,
+      "emg": 0.422
+    },
+    "signal_qualities": {
+      "eeg_q": 0.967,
+      "emg_q": 0.707
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 22.5,
+    "window_id": 46,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.861,
+    "source_weights": {
+      "eeg": 0.573,
+      "emg": 0.427
+    },
+    "signal_qualities": {
+      "eeg_q": 0.963,
+      "emg_q": 0.717
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 23.0,
+    "window_id": 47,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.728,
+    "source_weights": {
+      "eeg": 0.558,
+      "emg": 0.442
+    },
+    "signal_qualities": {
+      "eeg_q": 0.966,
+      "emg_q": 0.766
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 23.5,
+    "window_id": 48,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.866,
+    "source_weights": {
+      "eeg": 0.552,
+      "emg": 0.448
+    },
+    "signal_qualities": {
+      "eeg_q": 0.969,
+      "emg_q": 0.786
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 24.0,
+    "window_id": 49,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.768,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "signal_qualities": {
+      "eeg_q": 0.966,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 24.5,
+    "window_id": 50,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.876,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 25.0,
+    "window_id": 51,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.979,
+    "source_weights": {
+      "eeg": 0.581,
+      "emg": 0.419
+    },
+    "signal_qualities": {
+      "eeg_q": 0.969,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 25.5,
+    "window_id": 52,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.973,
+    "source_weights": {
+      "eeg": 0.578,
+      "emg": 0.422
+    },
+    "signal_qualities": {
+      "eeg_q": 0.96,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 26.0,
+    "window_id": 53,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.849,
+    "source_weights": {
+      "eeg": 0.574,
+      "emg": 0.426
+    },
+    "signal_qualities": {
+      "eeg_q": 0.958,
+      "emg_q": 0.71
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 26.5,
+    "window_id": 54,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.869,
+    "source_weights": {
+      "eeg": 0.55,
+      "emg": 0.45
+    },
+    "signal_qualities": {
+      "eeg_q": 0.961,
+      "emg_q": 0.786
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 27.0,
+    "window_id": 55,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.856,
+    "source_weights": {
+      "eeg": 0.552,
+      "emg": 0.448
+    },
+    "signal_qualities": {
+      "eeg_q": 0.964,
+      "emg_q": 0.784
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 27.5,
+    "window_id": 56,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.945,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "signal_qualities": {
+      "eeg_q": 0.967,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 28.0,
+    "window_id": 57,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.981,
+    "source_weights": {
+      "eeg": 0.578,
+      "emg": 0.422
+    },
+    "signal_qualities": {
+      "eeg_q": 0.958,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 28.5,
+    "window_id": 58,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.884,
+    "source_weights": {
+      "eeg": 0.578,
+      "emg": 0.422
+    },
+    "signal_qualities": {
+      "eeg_q": 0.957,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 29.0,
+    "window_id": 59,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.769,
+    "source_weights": {
+      "eeg": 0.569,
+      "emg": 0.431
+    },
+    "signal_qualities": {
+      "eeg_q": 0.965,
+      "emg_q": 0.73
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 29.5,
+    "window_id": 60,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.8,
+    "source_weights": {
+      "eeg": 0.554,
+      "emg": 0.446
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.78
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 30.0,
+    "window_id": 61,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.86,
+    "source_weights": {
+      "eeg": 0.579,
+      "emg": 0.421
+    },
+    "signal_qualities": {
+      "eeg_q": 0.971,
+      "emg_q": 0.707
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 30.5,
+    "window_id": 62,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.74,
+    "source_weights": {
+      "eeg": 0.581,
+      "emg": 0.419
+    },
+    "signal_qualities": {
+      "eeg_q": 0.971,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 31.0,
+    "window_id": 63,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.859,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.711
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 31.5,
+    "window_id": 64,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.646,
+    "source_weights": {
+      "eeg": 0.575,
+      "emg": 0.425
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.715
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 32.0,
+    "window_id": 65,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.856,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.971,
+      "emg_q": 0.712
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 32.5,
+    "window_id": 66,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.982,
+    "source_weights": {
+      "eeg": 0.555,
+      "emg": 0.445
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.777
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 33.0,
+    "window_id": 67,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.968,
+    "source_weights": {
+      "eeg": 0.561,
+      "emg": 0.439
+    },
+    "signal_qualities": {
+      "eeg_q": 0.969,
+      "emg_q": 0.758
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 33.5,
+    "window_id": 68,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.785,
+    "source_weights": {
+      "eeg": 0.581,
+      "emg": 0.419
+    },
+    "signal_qualities": {
+      "eeg_q": 0.971,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 34.0,
+    "window_id": 69,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.675,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "signal_qualities": {
+      "eeg_q": 0.967,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 34.5,
+    "window_id": 70,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.884,
+    "source_weights": {
+      "eeg": 0.579,
+      "emg": 0.421
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.703
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 35.0,
+    "window_id": 71,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.973,
+    "source_weights": {
+      "eeg": 0.557,
+      "emg": 0.443
+    },
+    "signal_qualities": {
+      "eeg_q": 0.965,
+      "emg_q": 0.769
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 35.5,
+    "window_id": 72,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.965,
+    "source_weights": {
+      "eeg": 0.557,
+      "emg": 0.443
+    },
+    "signal_qualities": {
+      "eeg_q": 0.966,
+      "emg_q": 0.767
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 36.0,
+    "window_id": 73,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.875,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "signal_qualities": {
+      "eeg_q": 0.967,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 36.5,
+    "window_id": 74,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.767,
+    "source_weights": {
+      "eeg": 0.578,
+      "emg": 0.422
+    },
+    "signal_qualities": {
+      "eeg_q": 0.966,
+      "emg_q": 0.706
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 37.0,
+    "window_id": 75,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.86,
+    "source_weights": {
+      "eeg": 0.581,
+      "emg": 0.419
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 37.5,
+    "window_id": 76,
+    "safety_status": "PAUSED",
+    "status_reason": "Erratic physical spasm detected - Multimodal safety net engaged",
+    "intent": "HOLD",
+    "confidence": 0.0,
+    "source_weights": {
+      "eeg": 0.5,
+      "emg": 0.5
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.701
+    },
+    "joint_angles_deg": {
+      "shoulder": 0.0,
+      "elbow": 45.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 38.0,
+    "window_id": 77,
+    "safety_status": "PAUSED",
+    "status_reason": "Erratic physical spasm detected - Multimodal safety net engaged",
+    "intent": "HOLD",
+    "confidence": 0.0,
+    "source_weights": {
+      "eeg": 0.5,
+      "emg": 0.5
+    },
+    "signal_qualities": {
+      "eeg_q": 0.972,
+      "emg_q": 0.717
+    },
+    "joint_angles_deg": {
+      "shoulder": 0.0,
+      "elbow": 45.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 38.5,
+    "window_id": 78,
+    "safety_status": "PAUSED",
+    "status_reason": "Erratic physical spasm detected - Multimodal safety net engaged",
+    "intent": "HOLD",
+    "confidence": 0.0,
+    "source_weights": {
+      "eeg": 0.5,
+      "emg": 0.5
+    },
+    "signal_qualities": {
+      "eeg_q": 0.973,
+      "emg_q": 0.777
+    },
+    "joint_angles_deg": {
+      "shoulder": 0.0,
+      "elbow": 45.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 39.0,
+    "window_id": 79,
+    "safety_status": "PAUSED",
+    "status_reason": "Erratic physical spasm detected - Multimodal safety net engaged",
+    "intent": "HOLD",
+    "confidence": 0.0,
+    "source_weights": {
+      "eeg": 0.5,
+      "emg": 0.5
+    },
+    "signal_qualities": {
+      "eeg_q": 0.972,
+      "emg_q": 0.767
+    },
+    "joint_angles_deg": {
+      "shoulder": 0.0,
+      "elbow": 45.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 39.5,
+    "window_id": 80,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.838,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.972,
+      "emg_q": 0.714
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 40.0,
+    "window_id": 81,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.985,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.975,
+      "emg_q": 0.715
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 40.5,
+    "window_id": 82,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.97,
+    "source_weights": {
+      "eeg": 0.581,
+      "emg": 0.419
+    },
+    "signal_qualities": {
+      "eeg_q": 0.971,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 41.0,
+    "window_id": 83,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.793,
+    "source_weights": {
+      "eeg": 0.565,
+      "emg": 0.435
+    },
+    "signal_qualities": {
+      "eeg_q": 0.967,
+      "emg_q": 0.745
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 41.5,
+    "window_id": 84,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.796,
+    "source_weights": {
+      "eeg": 0.558,
+      "emg": 0.442
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.766
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 42.0,
+    "window_id": 85,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.897,
+    "source_weights": {
+      "eeg": 0.581,
+      "emg": 0.419
+    },
+    "signal_qualities": {
+      "eeg_q": 0.971,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 42.5,
+    "window_id": 86,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.947,
+    "source_weights": {
+      "eeg": 0.579,
+      "emg": 0.421
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.706
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 43.0,
+    "window_id": 87,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.983,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "signal_qualities": {
+      "eeg_q": 0.969,
+      "emg_q": 0.703
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 43.5,
+    "window_id": 88,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.762,
+    "source_weights": {
+      "eeg": 0.581,
+      "emg": 0.419
+    },
+    "signal_qualities": {
+      "eeg_q": 0.969,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 44.0,
+    "window_id": 89,
+    "safety_status": "PAUSED",
+    "status_reason": "Erratic physical spasm detected - Multimodal safety net engaged",
+    "intent": "HOLD",
+    "confidence": 0.0,
+    "source_weights": {
+      "eeg": 0.5,
+      "emg": 0.5
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.714
+    },
+    "joint_angles_deg": {
+      "shoulder": 0.0,
+      "elbow": 45.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 44.5,
+    "window_id": 90,
+    "safety_status": "PAUSED",
+    "status_reason": "Erratic physical spasm detected - Multimodal safety net engaged",
+    "intent": "HOLD",
+    "confidence": 0.0,
+    "source_weights": {
+      "eeg": 0.5,
+      "emg": 0.5
+    },
+    "signal_qualities": {
+      "eeg_q": 0.969,
+      "emg_q": 0.801
+    },
+    "joint_angles_deg": {
+      "shoulder": 0.0,
+      "elbow": 45.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 45.0,
+    "window_id": 91,
+    "safety_status": "PAUSED",
+    "status_reason": "Erratic physical spasm detected - Multimodal safety net engaged",
+    "intent": "HOLD",
+    "confidence": 0.0,
+    "source_weights": {
+      "eeg": 0.5,
+      "emg": 0.5
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.773
+    },
+    "joint_angles_deg": {
+      "shoulder": 0.0,
+      "elbow": 45.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 45.5,
+    "window_id": 92,
+    "safety_status": "PAUSED",
+    "status_reason": "Erratic physical spasm detected - Multimodal safety net engaged",
+    "intent": "HOLD",
+    "confidence": 0.0,
+    "source_weights": {
+      "eeg": 0.5,
+      "emg": 0.5
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.642
+    },
+    "joint_angles_deg": {
+      "shoulder": 0.0,
+      "elbow": 45.0,
+      "wrist": 0.0
+    }
+  },
+  {
+    "timestamp": 46.0,
+    "window_id": 93,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.88,
+    "source_weights": {
+      "eeg": 0.6,
+      "emg": 0.4
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.646
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 46.5,
+    "window_id": 94,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.698,
+    "source_weights": {
+      "eeg": 0.599,
+      "emg": 0.401
+    },
+    "signal_qualities": {
+      "eeg_q": 0.967,
+      "emg_q": 0.648
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 47.0,
+    "window_id": 95,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.885,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "signal_qualities": {
+      "eeg_q": 0.966,
+      "emg_q": 0.728
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 47.5,
+    "window_id": 96,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.978,
+    "source_weights": {
+      "eeg": 0.553,
+      "emg": 0.447
+    },
+    "signal_qualities": {
+      "eeg_q": 0.967,
+      "emg_q": 0.781
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 48.0,
+    "window_id": 97,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.943,
+    "source_weights": {
+      "eeg": 0.573,
+      "emg": 0.427
+    },
+    "signal_qualities": {
+      "eeg_q": 0.967,
+      "emg_q": 0.721
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 48.5,
+    "window_id": 98,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.917,
+    "source_weights": {
+      "eeg": 0.578,
+      "emg": 0.422
+    },
+    "signal_qualities": {
+      "eeg_q": 0.965,
+      "emg_q": 0.704
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 49.0,
+    "window_id": 99,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.733,
+    "source_weights": {
+      "eeg": 0.579,
+      "emg": 0.421
+    },
+    "signal_qualities": {
+      "eeg_q": 0.964,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 49.5,
+    "window_id": 100,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.935,
+    "source_weights": {
+      "eeg": 0.579,
+      "emg": 0.421
+    },
+    "signal_qualities": {
+      "eeg_q": 0.961,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 50.0,
+    "window_id": 101,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.981,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.957,
+      "emg_q": 0.702
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 50.5,
+    "window_id": 102,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.932,
+    "source_weights": {
+      "eeg": 0.549,
+      "emg": 0.451
+    },
+    "signal_qualities": {
+      "eeg_q": 0.962,
+      "emg_q": 0.789
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 51.0,
+    "window_id": 103,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.808,
+    "source_weights": {
+      "eeg": 0.57,
+      "emg": 0.43
+    },
+    "signal_qualities": {
+      "eeg_q": 0.954,
+      "emg_q": 0.718
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 51.5,
+    "window_id": 104,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.775,
+    "source_weights": {
+      "eeg": 0.625,
+      "emg": 0.375
+    },
+    "signal_qualities": {
+      "eeg_q": 0.944,
+      "emg_q": 0.567
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 52.0,
+    "window_id": 105,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.881,
+    "source_weights": {
+      "eeg": 0.635,
+      "emg": 0.365
+    },
+    "signal_qualities": {
+      "eeg_q": 0.953,
+      "emg_q": 0.548
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 52.5,
+    "window_id": 106,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.877,
+    "source_weights": {
+      "eeg": 0.644,
+      "emg": 0.356
+    },
+    "signal_qualities": {
+      "eeg_q": 0.962,
+      "emg_q": 0.531
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 53.0,
+    "window_id": 107,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.748,
+    "source_weights": {
+      "eeg": 0.59,
+      "emg": 0.41
+    },
+    "signal_qualities": {
+      "eeg_q": 0.959,
+      "emg_q": 0.667
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 53.5,
+    "window_id": 108,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.827,
+    "source_weights": {
+      "eeg": 0.553,
+      "emg": 0.447
+    },
+    "signal_qualities": {
+      "eeg_q": 0.963,
+      "emg_q": 0.778
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 54.0,
+    "window_id": 109,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.775,
+    "source_weights": {
+      "eeg": 0.579,
+      "emg": 0.421
+    },
+    "signal_qualities": {
+      "eeg_q": 0.965,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 54.5,
+    "window_id": 110,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.836,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.957,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 55.0,
+    "window_id": 111,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.977,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.954,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 55.5,
+    "window_id": 112,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.984,
+    "source_weights": {
+      "eeg": 0.578,
+      "emg": 0.422
+    },
+    "signal_qualities": {
+      "eeg_q": 0.962,
+      "emg_q": 0.701
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 56.0,
+    "window_id": 113,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.908,
+    "source_weights": {
+      "eeg": 0.576,
+      "emg": 0.424
+    },
+    "signal_qualities": {
+      "eeg_q": 0.97,
+      "emg_q": 0.713
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 56.5,
+    "window_id": 114,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.831,
+    "source_weights": {
+      "eeg": 0.55,
+      "emg": 0.45
+    },
+    "signal_qualities": {
+      "eeg_q": 0.971,
+      "emg_q": 0.794
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 57.0,
+    "window_id": 115,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.872,
+    "source_weights": {
+      "eeg": 0.637,
+      "emg": 0.363
+    },
+    "signal_qualities": {
+      "eeg_q": 0.969,
+      "emg_q": 0.552
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 57.5,
+    "window_id": 116,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.983,
+    "source_weights": {
+      "eeg": 0.673,
+      "emg": 0.327
+    },
+    "signal_qualities": {
+      "eeg_q": 0.963,
+      "emg_q": 0.468
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 58.0,
+    "window_id": 117,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.982,
+    "source_weights": {
+      "eeg": 0.677,
+      "emg": 0.323
+    },
+    "signal_qualities": {
+      "eeg_q": 0.962,
+      "emg_q": 0.46
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 58.5,
+    "window_id": 118,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.894,
+    "source_weights": {
+      "eeg": 0.684,
+      "emg": 0.316
+    },
+    "signal_qualities": {
+      "eeg_q": 0.965,
+      "emg_q": 0.447
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 59.0,
+    "window_id": 119,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.767,
+    "source_weights": {
+      "eeg": 0.647,
+      "emg": 0.353
+    },
+    "signal_qualities": {
+      "eeg_q": 0.957,
+      "emg_q": 0.522
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 59.5,
+    "window_id": 120,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.806,
+    "source_weights": {
+      "eeg": 0.554,
+      "emg": 0.446
+    },
+    "signal_qualities": {
+      "eeg_q": 0.954,
+      "emg_q": 0.767
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 60.0,
+    "window_id": 121,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.785,
+    "source_weights": {
+      "eeg": 0.577,
+      "emg": 0.423
+    },
+    "signal_qualities": {
+      "eeg_q": 0.957,
+      "emg_q": 0.703
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 60.5,
+    "window_id": 122,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.751,
+    "source_weights": {
+      "eeg": 0.578,
+      "emg": 0.422
+    },
+    "signal_qualities": {
+      "eeg_q": 0.96,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 61.0,
+    "window_id": 123,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.889,
+    "source_weights": {
+      "eeg": 0.58,
+      "emg": 0.42
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 61.5,
+    "window_id": 124,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.782,
+    "source_weights": {
+      "eeg": 0.579,
+      "emg": 0.421
+    },
+    "signal_qualities": {
+      "eeg_q": 0.963,
+      "emg_q": 0.7
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 62.0,
+    "window_id": 125,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.894,
+    "source_weights": {
+      "eeg": 0.574,
+      "emg": 0.426
+    },
+    "signal_qualities": {
+      "eeg_q": 0.959,
+      "emg_q": 0.713
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 62.5,
+    "window_id": 126,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.968,
+    "source_weights": {
+      "eeg": 0.587,
+      "emg": 0.413
+    },
+    "signal_qualities": {
+      "eeg_q": 0.962,
+      "emg_q": 0.677
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 63.0,
+    "window_id": 127,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.979,
+    "source_weights": {
+      "eeg": 0.665,
+      "emg": 0.335
+    },
+    "signal_qualities": {
+      "eeg_q": 0.959,
+      "emg_q": 0.483
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 63.5,
+    "window_id": 128,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.937,
+    "source_weights": {
+      "eeg": 0.705,
+      "emg": 0.295
+    },
+    "signal_qualities": {
+      "eeg_q": 0.958,
+      "emg_q": 0.4
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 64.0,
+    "window_id": 129,
+    "safety_status": "DEGRADED",
+    "status_reason": "Muscle fatigue detected - Adaptive shift to EEG priority",
+    "intent": "FLEX",
+    "confidence": 0.915,
+    "source_weights": {
+      "eeg": 0.85,
+      "emg": 0.15
+    },
+    "signal_qualities": {
+      "eeg_q": 0.96,
+      "emg_q": 0.388
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 64.5,
+    "window_id": 130,
+    "safety_status": "DEGRADED",
+    "status_reason": "Muscle fatigue detected - Adaptive shift to EEG priority",
+    "intent": "EXTEND",
+    "confidence": 0.967,
+    "source_weights": {
+      "eeg": 0.85,
+      "emg": 0.15
+    },
+    "signal_qualities": {
+      "eeg_q": 0.962,
+      "emg_q": 0.391
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 65.0,
+    "window_id": 131,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.984,
+    "source_weights": {
+      "eeg": 0.683,
+      "emg": 0.317
+    },
+    "signal_qualities": {
+      "eeg_q": 0.969,
+      "emg_q": 0.45
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 65.5,
+    "window_id": 132,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.974,
+    "source_weights": {
+      "eeg": 0.594,
+      "emg": 0.406
+    },
+    "signal_qualities": {
+      "eeg_q": 0.964,
+      "emg_q": 0.659
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 66.0,
+    "window_id": 133,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.864,
+    "source_weights": {
+      "eeg": 0.586,
+      "emg": 0.414
+    },
+    "signal_qualities": {
+      "eeg_q": 0.959,
+      "emg_q": 0.676
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 66.5,
+    "window_id": 134,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "EXTEND",
+    "confidence": 0.718,
+    "source_weights": {
+      "eeg": 0.584,
+      "emg": 0.416
+    },
+    "signal_qualities": {
+      "eeg_q": 0.961,
+      "emg_q": 0.685
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 15.0,
+      "wrist": 10.0
+    }
+  },
+  {
+    "timestamp": 67.0,
+    "window_id": 135,
+    "safety_status": "ACTIVE",
+    "status_reason": "Nominal multimodal operation",
+    "intent": "FLEX",
+    "confidence": 0.822,
+    "source_weights": {
+      "eeg": 0.587,
+      "emg": 0.413
+    },
+    "signal_qualities": {
+      "eeg_q": 0.968,
+      "emg_q": 0.68
+    },
+    "joint_angles_deg": {
+      "shoulder": 15.0,
+      "elbow": 90.0,
+      "wrist": 10.0
+    }
+  }
+]
